@@ -1,3 +1,7 @@
+header {
+  position: sticky;
+  top: 0;
+}
 .navbar {
   display: flex;
   flex-wrap: wrap;
@@ -189,7 +193,8 @@
     object-fit: cover;
   }
 
-  .nav-links,  .search-and-button{
+  .nav-links,
+  .search-and-button {
     display: none;
   }
 
